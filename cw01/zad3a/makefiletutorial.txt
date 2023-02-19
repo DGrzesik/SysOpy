@@ -1,0 +1,6 @@
+make static - ładuje bibliotekę statyczną
+make test_static - ładuje bibliotekę statyczną i wykonuje na niej testy
+make test_shared - ładuje bibliotekę statyczną i wykonuje na niej testy
+make test_dynamic - testy na programie z załadowaną biblioteką dynamiczną
+make test_all - testy na wszystkich rodzajach bibliotek
+make clean - usuwa pliki .o .a .so main oraz raport3a.txt

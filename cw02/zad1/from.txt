@@ -1,0 +1,10 @@
+Text with a couple white space characters,
+      tabs and of course empty
+
+  lines which are meant
+                    to be deleted
+
+
+ while the file
+
+ is being copied.

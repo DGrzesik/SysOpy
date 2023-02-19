@@ -1,0 +1,928 @@
+TEST FOR STATIC
+
+SMALL TESTS 3
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 504
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   0  71 506
+real 0.020000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.060000
+user 0.000000
+sys  0.000000
+
+
+SMALL TESTS 6
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 504
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   0  71 506
+real 0.020000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 504
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   0  71 506
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.100000
+user 0.000000
+sys  0.000000
+
+
+SMALL TESTS 10
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 504
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   0  71 506
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 504
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   0  71 506
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 504
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   0  71 506
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   6  71 512
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.150000
+user 0.000000
+sys  0.000000
+
+
+MEDIUM TESTS 3
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.040000
+user 0.000000
+sys  0.000000
+
+
+MEDIUM TESTS 6
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.070000
+user 0.000000
+sys  0.000000
+
+
+MEDIUM TESTS 3
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains    8  443 3007
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.120000
+user 0.000000
+sys  0.000000
+
+
+ LARGE TESTS 3
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   18  996 6808
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   20  987 6641
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.050000
+user 0.000000
+sys  0.000000
+
+
+ LARGE TESTS 6
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   18  996 6808
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   20  987 6641
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   18  996 6808
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   20  987 6641
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.070000
+user 0.000000
+sys  0.000000
+
+
+ LARGE TESTS 10
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   18  996 6808
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   20  987 6641
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   18  996 6808
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   20  987 6641
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   18  996 6808
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block contains   20  987 6641
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Data loaded to temporary file
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block contains   16  856 5817
+real 0.010000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+Block removed
+real 0.000000
+user 0.000000
+sys  0.000000
+
+TOTAL EXECUTION TIME
+real 0.120000
+user 0.000000
+sys  0.000000
+

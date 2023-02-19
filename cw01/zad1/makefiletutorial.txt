@@ -1,0 +1,3 @@
+make static - ładuje bibliotekę statyczną
+make shared - ładuje bibliotekę współdzieloną
+make clean - usuwa z folderu pliki .o .a .so oraz main
