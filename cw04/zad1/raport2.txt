@@ -1,0 +1,80 @@
+------- WNIOSKI -------
+
+----------------------------------------------------------
+
+FORK:
+
+Ustawienia są dziedziczone przez proces dziecka podczas wywołania:
+"ignore"
+"handler"
+"mask"
+
+W przypadku "pending" sygnał oczekujący
+w rodzicu NIE jest widoczny w procesie dziecko.
+
+----------------------------------------------------------
+
+EXEC:
+
+Ustawienia są dziedziczone przez proces dziecka podczas wywołania:
+"ignore"
+"mask"
+"pending"
+
+W przypadku "pending" sygnał oczekujący
+w rodzicu tym razem w przewieństwie do przypadku z użyciem fork JEST widoczny w procesie dziecko.
+
+----------------------------------------------------------
+
+
+
+------- FORK AND EXEC TESTS -------
+
+
+
+---- FORK TEST ----
+
+
+------------ TESTING "ignore" ------------
+Raising signal:
+Going to raise a signal in child process...
+
+------------ TESTING "handler" ------------
+Raising signal:
+Received signal 10. PID: 868, PPID: 860
+Raising signal in child:
+Received signal 10. PID: 869, PPID: 868
+
+------------ TESTING "mask" ------------
+Raising signal:
+Signal pending
+Going to raise a signal in child process...
+Signal pending in child process
+
+------------ TESTING "pending" ------------
+Raising signal:
+Signal pending
+Child process here
+Signal NOT pending in child process
+
+
+---- EXEC TEST ----
+
+
+------------ TESTING "ignore" ------------
+Raising signal:
+Entered child program!
+Raising signal in child process:
+
+------------ TESTING "mask" ------------
+Raising signal:
+Signal pending
+Entered child program!
+Raising signal in child process:
+Signal pending in child process!
+
+------------ TESTING "pending" ------------
+Raising signal:
+Signal pending
+Entered child program!
+Signal pending in child process!

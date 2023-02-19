@@ -1,0 +1,765 @@
+Wnioski:
+
+Zdecydowanie wolniejszy jest wariant bazujący na metodzie numbers, gdyż każdy wątek musi przeglądnąć
+wszystkie piksele w poszukiwaniu swojego przedziału.
+
+W metodzie block każdy wątek ma odgórnie przydzielony obszar
+i od razu w nim pracuje, stąd o tyle krótsze czasy.
+
+Im więcej wątków tym dłuższy całkowity czas wykonywania programu - dużo czasu zajmuje tworzenie
+poszczególnych wątków.
+
+--------------------
+
+Number of threads:  1
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1145 [μs]
+TOTAL TIME:  1552 [μs]
+
+
+--------------------
+
+Number of threads:  1
+Method:  block
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   924 [μs]
+TOTAL TIME:  2179 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1525 [μs]
+Thread index:   1, work time:  1265 [μs]
+TOTAL TIME:  1690 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  block
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   542 [μs]
+Thread index:   1, work time:   494 [μs]
+TOTAL TIME:  2855 [μs]
+
+
+--------------------
+
+Number of threads:  4
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  2020 [μs]
+Thread index:   1, work time:  2262 [μs]
+Thread index:   2, work time:  1715 [μs]
+Thread index:   3, work time:  1581 [μs]
+TOTAL TIME:  6292 [μs]
+
+
+--------------------
+
+Number of threads:  4
+Method:  block
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   314 [μs]
+Thread index:   1, work time:   250 [μs]
+Thread index:   2, work time:   262 [μs]
+Thread index:   3, work time:   260 [μs]
+TOTAL TIME:  2377 [μs]
+
+
+--------------------
+
+Number of threads:  8
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   945 [μs]
+Thread index:   1, work time:   995 [μs]
+Thread index:   2, work time:   993 [μs]
+Thread index:   3, work time:  1501 [μs]
+Thread index:   4, work time:  1273 [μs]
+Thread index:   5, work time:   895 [μs]
+Thread index:   6, work time:   917 [μs]
+Thread index:   7, work time:   853 [μs]
+TOTAL TIME:  4119 [μs]
+
+
+--------------------
+
+Number of threads:  8
+Method:  block
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   171 [μs]
+Thread index:   1, work time:   146 [μs]
+Thread index:   2, work time:   166 [μs]
+Thread index:   3, work time:   147 [μs]
+Thread index:   4, work time:   137 [μs]
+Thread index:   5, work time:   159 [μs]
+Thread index:   6, work time:   132 [μs]
+Thread index:   7, work time:   137 [μs]
+TOTAL TIME:  2227 [μs]
+
+
+--------------------
+
+Number of threads:  16
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   942 [μs]
+Thread index:   1, work time:   932 [μs]
+Thread index:   2, work time:   932 [μs]
+Thread index:   3, work time:   976 [μs]
+Thread index:   4, work time:   980 [μs]
+Thread index:   5, work time:  1396 [μs]
+Thread index:   6, work time:  2087 [μs]
+Thread index:   7, work time:  1437 [μs]
+Thread index:   8, work time:  1275 [μs]
+Thread index:   9, work time:   908 [μs]
+Thread index:  10, work time:   878 [μs]
+Thread index:  11, work time:   878 [μs]
+Thread index:  12, work time:   884 [μs]
+Thread index:  13, work time:   893 [μs]
+Thread index:  14, work time:   860 [μs]
+Thread index:  15, work time:   840 [μs]
+TOTAL TIME:  8919 [μs]
+
+
+--------------------
+
+Number of threads:  16
+Method:  block
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:    99 [μs]
+Thread index:   1, work time:    76 [μs]
+Thread index:   2, work time:    73 [μs]
+Thread index:   3, work time:    81 [μs]
+Thread index:   4, work time:    73 [μs]
+Thread index:   5, work time:    69 [μs]
+Thread index:   6, work time:   125 [μs]
+Thread index:   7, work time:   169 [μs]
+Thread index:   8, work time:   106 [μs]
+Thread index:   9, work time:   102 [μs]
+Thread index:  10, work time:   261 [μs]
+Thread index:  11, work time:    73 [μs]
+Thread index:  12, work time:    76 [μs]
+Thread index:  13, work time:    71 [μs]
+Thread index:  14, work time:    98 [μs]
+Thread index:  15, work time:    70 [μs]
+TOTAL TIME:  3485 [μs]
+
+
+--------------------
+
+Number of threads:  64
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:   959 [μs]
+Thread index:   1, work time:   948 [μs]
+Thread index:   2, work time:   943 [μs]
+Thread index:   3, work time:   968 [μs]
+Thread index:   4, work time:   936 [μs]
+Thread index:   5, work time:   967 [μs]
+Thread index:   6, work time:  6136 [μs]
+Thread index:   7, work time:  1967 [μs]
+Thread index:   8, work time:   951 [μs]
+Thread index:   9, work time:  1108 [μs]
+Thread index:  10, work time:  1444 [μs]
+Thread index:  11, work time:   954 [μs]
+Thread index:  12, work time:   959 [μs]
+Thread index:  13, work time:  1352 [μs]
+Thread index:  14, work time:   978 [μs]
+Thread index:  15, work time:  1753 [μs]
+Thread index:  16, work time:  1083 [μs]
+Thread index:  17, work time:   970 [μs]
+Thread index:  18, work time:   997 [μs]
+Thread index:  19, work time:   973 [μs]
+Thread index:  20, work time:  1052 [μs]
+Thread index:  21, work time:   999 [μs]
+Thread index:  22, work time:  1003 [μs]
+Thread index:  23, work time:  1009 [μs]
+Thread index:  24, work time:  1020 [μs]
+Thread index:  25, work time:  1037 [μs]
+Thread index:  26, work time:  1168 [μs]
+Thread index:  27, work time:  1043 [μs]
+Thread index:  28, work time:  1564 [μs]
+Thread index:  29, work time:  1241 [μs]
+Thread index:  30, work time:  1476 [μs]
+Thread index:  31, work time:  1567 [μs]
+Thread index:  32, work time:  1461 [μs]
+Thread index:  33, work time:  6042 [μs]
+Thread index:  34, work time:   949 [μs]
+Thread index:  35, work time:   889 [μs]
+Thread index:  36, work time:   875 [μs]
+Thread index:  37, work time:   935 [μs]
+Thread index:  38, work time:  1097 [μs]
+Thread index:  39, work time:   856 [μs]
+Thread index:  40, work time:   857 [μs]
+Thread index:  41, work time:  1419 [μs]
+Thread index:  42, work time:   858 [μs]
+Thread index:  43, work time:   870 [μs]
+Thread index:  44, work time:   872 [μs]
+Thread index:  45, work time:   899 [μs]
+Thread index:  46, work time:   864 [μs]
+Thread index:  47, work time:   869 [μs]
+Thread index:  48, work time:   863 [μs]
+Thread index:  49, work time:   925 [μs]
+Thread index:  50, work time:   872 [μs]
+Thread index:  51, work time: 11388 [μs]
+Thread index:  52, work time:   859 [μs]
+Thread index:  53, work time:  2576 [μs]
+Thread index:  54, work time:   862 [μs]
+Thread index:  55, work time:   861 [μs]
+Thread index:  56, work time:   885 [μs]
+Thread index:  57, work time:  1643 [μs]
+Thread index:  58, work time:   873 [μs]
+Thread index:  59, work time:   860 [μs]
+Thread index:  60, work time:  2335 [μs]
+Thread index:  61, work time:  9469 [μs]
+Thread index:  62, work time:  5779 [μs]
+Thread index:  63, work time:  2573 [μs]
+TOTAL TIME: 31617 [μs]
+
+
+--------------------
+
+Number of threads:  64
+Method:  block
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:    70 [μs]
+Thread index:   1, work time:    35 [μs]
+Thread index:   2, work time:    27 [μs]
+Thread index:   3, work time:    20 [μs]
+Thread index:   4, work time:    21 [μs]
+Thread index:   5, work time:    99 [μs]
+Thread index:   6, work time:    70 [μs]
+Thread index:   7, work time:    25 [μs]
+Thread index:   8, work time:    29 [μs]
+Thread index:   9, work time:    20 [μs]
+Thread index:  10, work time:    67 [μs]
+Thread index:  11, work time:    44 [μs]
+Thread index:  12, work time:   128 [μs]
+Thread index:  13, work time:    40 [μs]
+Thread index:  14, work time:    29 [μs]
+Thread index:  15, work time:    27 [μs]
+Thread index:  16, work time:    26 [μs]
+Thread index:  17, work time:    26 [μs]
+Thread index:  18, work time:    32 [μs]
+Thread index:  19, work time:    76 [μs]
+Thread index:  20, work time:    34 [μs]
+Thread index:  21, work time:    33 [μs]
+Thread index:  22, work time:    34 [μs]
+Thread index:  23, work time:    28 [μs]
+Thread index:  24, work time:    27 [μs]
+Thread index:  25, work time:    28 [μs]
+Thread index:  26, work time:   103 [μs]
+Thread index:  27, work time:    36 [μs]
+Thread index:  28, work time:    41 [μs]
+Thread index:  29, work time:    29 [μs]
+Thread index:  30, work time:    38 [μs]
+Thread index:  31, work time:    62 [μs]
+Thread index:  32, work time:    31 [μs]
+Thread index:  33, work time:    76 [μs]
+Thread index:  34, work time:    37 [μs]
+Thread index:  35, work time:    30 [μs]
+Thread index:  36, work time:    28 [μs]
+Thread index:  37, work time:    41 [μs]
+Thread index:  38, work time:    34 [μs]
+Thread index:  39, work time:    30 [μs]
+Thread index:  40, work time:    84 [μs]
+Thread index:  41, work time:    36 [μs]
+Thread index:  42, work time:    31 [μs]
+Thread index:  43, work time:    25 [μs]
+Thread index:  44, work time:    26 [μs]
+Thread index:  45, work time:    26 [μs]
+Thread index:  46, work time:    26 [μs]
+Thread index:  47, work time:    26 [μs]
+Thread index:  48, work time:    26 [μs]
+Thread index:  49, work time:    26 [μs]
+Thread index:  50, work time:    27 [μs]
+Thread index:  51, work time:    38 [μs]
+Thread index:  52, work time:    26 [μs]
+Thread index:  53, work time:    26 [μs]
+Thread index:  54, work time:    27 [μs]
+Thread index:  55, work time:    27 [μs]
+Thread index:  56, work time:    26 [μs]
+Thread index:  57, work time:    26 [μs]
+Thread index:  58, work time:    27 [μs]
+Thread index:  59, work time:    26 [μs]
+Thread index:  60, work time:    27 [μs]
+Thread index:  61, work time:    26 [μs]
+Thread index:  62, work time:    26 [μs]
+Thread index:  63, work time:    27 [μs]
+TOTAL TIME: 30213 [μs]
+
+
+--------------------
+
+Number of threads:  1
+Method:  numbers
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  2889 [μs]
+TOTAL TIME:  5866 [μs]
+
+
+--------------------
+
+Number of threads:  1
+Method:  block
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  2053 [μs]
+TOTAL TIME:  2645 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  2724 [μs]
+Thread index:   1, work time:  3057 [μs]
+TOTAL TIME:  4243 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  block
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  1768 [μs]
+Thread index:   1, work time:  1614 [μs]
+TOTAL TIME:  3388 [μs]
+
+
+--------------------
+
+Number of threads:  4
+Method:  numbers
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  2842 [μs]
+Thread index:   1, work time:  3458 [μs]
+Thread index:   2, work time:  2660 [μs]
+Thread index:   3, work time:  3120 [μs]
+TOTAL TIME:  5215 [μs]
+
+
+--------------------
+
+Number of threads:  4
+Method:  block
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:   626 [μs]
+Thread index:   1, work time:   593 [μs]
+Thread index:   2, work time:   626 [μs]
+Thread index:   3, work time:   575 [μs]
+TOTAL TIME:  2135 [μs]
+
+
+--------------------
+
+Number of threads:  8
+Method:  numbers
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  2575 [μs]
+Thread index:   1, work time:  3039 [μs]
+Thread index:   2, work time:  2570 [μs]
+Thread index:   3, work time:  2633 [μs]
+Thread index:   4, work time:  2709 [μs]
+Thread index:   5, work time:  3747 [μs]
+Thread index:   6, work time:  2648 [μs]
+Thread index:   7, work time:  3129 [μs]
+TOTAL TIME: 11003 [μs]
+
+
+--------------------
+
+Number of threads:  8
+Method:  block
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:   389 [μs]
+Thread index:   1, work time:   359 [μs]
+Thread index:   2, work time:   318 [μs]
+Thread index:   3, work time:   371 [μs]
+Thread index:   4, work time:   386 [μs]
+Thread index:   5, work time:   420 [μs]
+Thread index:   6, work time:   414 [μs]
+Thread index:   7, work time:   346 [μs]
+TOTAL TIME:  1845 [μs]
+
+
+--------------------
+
+Number of threads:  16
+Method:  numbers
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  2553 [μs]
+Thread index:   1, work time:  2570 [μs]
+Thread index:   2, work time:  2561 [μs]
+Thread index:   3, work time:  2647 [μs]
+Thread index:   4, work time:  6458 [μs]
+Thread index:   5, work time:  3001 [μs]
+Thread index:   6, work time:  2648 [μs]
+Thread index:   7, work time:  2580 [μs]
+Thread index:   8, work time:  2571 [μs]
+Thread index:   9, work time:  3295 [μs]
+Thread index:  10, work time:  5493 [μs]
+Thread index:  11, work time:  4154 [μs]
+Thread index:  12, work time:  2656 [μs]
+Thread index:  13, work time:  3871 [μs]
+Thread index:  14, work time:  2571 [μs]
+Thread index:  15, work time:  2962 [μs]
+TOTAL TIME: 16303 [μs]
+
+
+--------------------
+
+Number of threads:  16
+Method:  block
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:   220 [μs]
+Thread index:   1, work time:   189 [μs]
+Thread index:   2, work time:   140 [μs]
+Thread index:   3, work time:   230 [μs]
+Thread index:   4, work time:   202 [μs]
+Thread index:   5, work time:   238 [μs]
+Thread index:   6, work time:   191 [μs]
+Thread index:   7, work time:   158 [μs]
+Thread index:   8, work time:   203 [μs]
+Thread index:   9, work time:   149 [μs]
+Thread index:  10, work time:   132 [μs]
+Thread index:  11, work time:   130 [μs]
+Thread index:  12, work time:   269 [μs]
+Thread index:  13, work time:   334 [μs]
+Thread index:  14, work time:   152 [μs]
+Thread index:  15, work time:   316 [μs]
+TOTAL TIME:  2956 [μs]
+
+
+--------------------
+
+Number of threads:  64
+Method:  numbers
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:  3589 [μs]
+Thread index:   1, work time:  2851 [μs]
+Thread index:   2, work time:  2863 [μs]
+Thread index:   3, work time:  3029 [μs]
+Thread index:   4, work time:  4365 [μs]
+Thread index:   5, work time:  2592 [μs]
+Thread index:   6, work time:  5912 [μs]
+Thread index:   7, work time: 12553 [μs]
+Thread index:   8, work time:  3472 [μs]
+Thread index:   9, work time:  4397 [μs]
+Thread index:  10, work time:  3801 [μs]
+Thread index:  11, work time:  2703 [μs]
+Thread index:  12, work time:  2588 [μs]
+Thread index:  13, work time:  2667 [μs]
+Thread index:  14, work time:  2586 [μs]
+Thread index:  15, work time:  3796 [μs]
+Thread index:  16, work time:  3741 [μs]
+Thread index:  17, work time:  3180 [μs]
+Thread index:  18, work time:  2556 [μs]
+Thread index:  19, work time:  3379 [μs]
+Thread index:  20, work time:  6496 [μs]
+Thread index:  21, work time:  2599 [μs]
+Thread index:  22, work time:  2560 [μs]
+Thread index:  23, work time:  2568 [μs]
+Thread index:  24, work time:  4154 [μs]
+Thread index:  25, work time:  2552 [μs]
+Thread index:  26, work time:  2579 [μs]
+Thread index:  27, work time:  2900 [μs]
+Thread index:  28, work time: 52323 [μs]
+Thread index:  29, work time:  7659 [μs]
+Thread index:  30, work time:  2603 [μs]
+Thread index:  31, work time:  4183 [μs]
+Thread index:  32, work time:  6973 [μs]
+Thread index:  33, work time:  2676 [μs]
+Thread index:  34, work time: 44672 [μs]
+Thread index:  35, work time:  4455 [μs]
+Thread index:  36, work time:  3870 [μs]
+Thread index:  37, work time:  2857 [μs]
+Thread index:  38, work time:  2781 [μs]
+Thread index:  39, work time: 39444 [μs]
+Thread index:  40, work time:  2596 [μs]
+Thread index:  41, work time:  2588 [μs]
+Thread index:  42, work time:  2894 [μs]
+Thread index:  43, work time:  3627 [μs]
+Thread index:  44, work time:  2622 [μs]
+Thread index:  45, work time:  2571 [μs]
+Thread index:  46, work time:  2571 [μs]
+Thread index:  47, work time:  2591 [μs]
+Thread index:  48, work time:  2929 [μs]
+Thread index:  49, work time: 36932 [μs]
+Thread index:  50, work time:  4718 [μs]
+Thread index:  51, work time:  3535 [μs]
+Thread index:  52, work time:  2611 [μs]
+Thread index:  53, work time:  2587 [μs]
+Thread index:  54, work time: 27280 [μs]
+Thread index:  55, work time:  6072 [μs]
+Thread index:  56, work time:  2732 [μs]
+Thread index:  57, work time:  2598 [μs]
+Thread index:  58, work time:  2576 [μs]
+Thread index:  59, work time:  2587 [μs]
+Thread index:  60, work time:  3994 [μs]
+Thread index:  61, work time: 17155 [μs]
+Thread index:  62, work time: 20858 [μs]
+Thread index:  63, work time:  3517 [μs]
+TOTAL TIME: 73019 [μs]
+
+
+--------------------
+
+Number of threads:  64
+Method:  block
+
+
+Image size: 800x800
+
+
+Thread index:   0, work time:   162 [μs]
+Thread index:   1, work time:   126 [μs]
+Thread index:   2, work time:    80 [μs]
+Thread index:   3, work time:    51 [μs]
+Thread index:   4, work time:    60 [μs]
+Thread index:   5, work time:    80 [μs]
+Thread index:   6, work time:    73 [μs]
+Thread index:   7, work time:    52 [μs]
+Thread index:   8, work time:    69 [μs]
+Thread index:   9, work time:    81 [μs]
+Thread index:  10, work time:    75 [μs]
+Thread index:  11, work time:   697 [μs]
+Thread index:  12, work time:    61 [μs]
+Thread index:  13, work time:    50 [μs]
+Thread index:  14, work time:    53 [μs]
+Thread index:  15, work time:    97 [μs]
+Thread index:  16, work time:    63 [μs]
+Thread index:  17, work time:    66 [μs]
+Thread index:  18, work time:    50 [μs]
+Thread index:  19, work time:    48 [μs]
+Thread index:  20, work time:    45 [μs]
+Thread index:  21, work time:    46 [μs]
+Thread index:  22, work time:   100 [μs]
+Thread index:  23, work time:    64 [μs]
+Thread index:  24, work time:    68 [μs]
+Thread index:  25, work time:    54 [μs]
+Thread index:  26, work time:    51 [μs]
+Thread index:  27, work time:    60 [μs]
+Thread index:  28, work time:    75 [μs]
+Thread index:  29, work time:   108 [μs]
+Thread index:  30, work time:    70 [μs]
+Thread index:  31, work time:    50 [μs]
+Thread index:  32, work time:    45 [μs]
+Thread index:  33, work time:    52 [μs]
+Thread index:  34, work time:    62 [μs]
+Thread index:  35, work time:    52 [μs]
+Thread index:  36, work time:    59 [μs]
+Thread index:  37, work time:    56 [μs]
+Thread index:  38, work time:    52 [μs]
+Thread index:  39, work time:    50 [μs]
+Thread index:  40, work time:    45 [μs]
+Thread index:  41, work time:    46 [μs]
+Thread index:  42, work time:    45 [μs]
+Thread index:  43, work time:   113 [μs]
+Thread index:  44, work time:    63 [μs]
+Thread index:  45, work time:    54 [μs]
+Thread index:  46, work time:    48 [μs]
+Thread index:  47, work time:    48 [μs]
+Thread index:  48, work time:    64 [μs]
+Thread index:  49, work time:    66 [μs]
+Thread index:  50, work time:    49 [μs]
+Thread index:  51, work time:    49 [μs]
+Thread index:  52, work time:    48 [μs]
+Thread index:  53, work time:    49 [μs]
+Thread index:  54, work time:    88 [μs]
+Thread index:  55, work time:    52 [μs]
+Thread index:  56, work time:    54 [μs]
+Thread index:  57, work time:    48 [μs]
+Thread index:  58, work time:    50 [μs]
+Thread index:  59, work time:    86 [μs]
+Thread index:  60, work time:    60 [μs]
+Thread index:  61, work time:    81 [μs]
+Thread index:  62, work time:    43 [μs]
+Thread index:  63, work time:   162 [μs]
+TOTAL TIME: 14519 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1389 [μs]
+Thread index:   1, work time:  1224 [μs]
+TOTAL TIME:  2628 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1651 [μs]
+Thread index:   1, work time:  1581 [μs]
+TOTAL TIME:  2016 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1505 [μs]
+Thread index:   1, work time:  1226 [μs]
+TOTAL TIME:  1685 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1487 [μs]
+Thread index:   1, work time:  1255 [μs]
+TOTAL TIME:  1623 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1264 [μs]
+Thread index:   1, work time:   729 [μs]
+TOTAL TIME:  1425 [μs]
+
+
+--------------------
+
+Number of threads:  2
+Method:  numbers
+
+
+Image size: 640x480
+
+
+Thread index:   0, work time:  1123 [μs]
+Thread index:   1, work time:  2047 [μs]
+TOTAL TIME: 4005533 [μs]
+
+
+--------------------
+

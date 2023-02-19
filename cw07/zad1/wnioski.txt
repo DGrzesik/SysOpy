@@ -1,0 +1,12 @@
+Wnioski:
+
+M - liczba dostawców
+N - liczba kucharzy
+
+Jeżeli M,N<5, program działa poprawnie i szybko. W momencie kiedy M i N znacząco się od siebie różnią, na przykład N=1 i M=3,
+2 dostawcy zawsze będą musieli czekać, aż ten jedyny kucharz wyłoży pizzę na stół. Jeśli N=3 a M=1, program zwolni, bo w pewnym momencie
+dostawca będzie w trasie, stół się napełni, a w związku z tym kucharze nie będą mogli wykładać kolejnych pizz.
+
+Jeżeli M,N>5, program wciąż działa poprawnie, ale wolniej. Założyliśmy, że maksymalna liczba pizz w piecu wynosi 5, więc
+6 kucharz będzie musiał poczekać, aż zwolni się miejsce w piecu. Analogicznie do przypadku wyżej, jeśli N jest znacznie większe od M i odwrotnie
+procesy będą blokowane ze względu na ograniczenia ilości miejsc na stole i w piecu.
